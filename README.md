@@ -2,19 +2,20 @@
 Codes to reproduce the analysis of the manuscript:
 CKI are numbered from 01 to 58 and the map can be found in /data/KI_Annotations/
 
-01_DMSO_Impulse_and_Clustering.R
+###01_DMSO_Impulse_and_Clustering.R
 - Code to performed time-resolved differential analysis and CRE clustering of H3K27ac Chipseq signal in control (DMSO) condition using ImpulseDE2, UMAP/Louvain.
 - The code can be run using the singularity image: docker://fgualdr/envimpulse
 
-02_Combine_ATLAS.R
+###02_Combine_ATLAS.R
 - Code to combine ~200 TFs Chipseq (both signal and MCAS2 called peaks) together with H3K27ac LPS/IL4 time course and H3K27ac IFNB1 time course in control (unperturbed) conditions
 - The code can be run using the singularity image: docker://fgualdr/envrgeneralg
 
 03_Main_MFA_analysis_and_plots.R
 - Code to perform the main analysis devoted to the integration of CKI effects employing MFA (Multiple Factor Analysis) from the FactomineR package.
 
-Folders:
+###Folders:
 /data/
+
 |--BMDM_CHIP_ATLAS : Contains .RData files relative to the pre-processed TFs Chipseq ATLAS (i.e. harmonized Peaks and signals per CREs)
 |--cre_counts : Contains a sample description "Normalisation_Parameters.txt" and the normalized read counts per CREs "Count_normalized.txt" for the H3K27ac Chipseq of the Screen presented in the manuscript
 |--cre_counts_ifnb1_stimulation : normalized read counts per CREs "Count_normalized.txt" for the H3K27ac Chipseq following IFNb1 stimulation (GSE56121).
