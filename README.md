@@ -12,6 +12,7 @@ CKI are numbered from 01 to 58 and the map can be found in /data/KI_Annotations/
 
 ### 03_Main_MFA_analysis_and_plots.R
 - Code to perform the main analysis devoted to the integration of CKI effects employing MFA (Multiple Factor Analysis) from the FactomineR package.
+- The code can be run using the singularity image: docker://fgualdr/envrgeneralg
 
 ### Folders:
 #### /data/
