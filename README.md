@@ -17,7 +17,7 @@ CKI are numbered from 01 to 58 and the map can be found in /data/KI_Annotations/
 /data/
 
 |-- BMDM_CHIP_ATLAS : Contains .RData files relative to the pre-processed TFs Chipseq ATLAS (i.e. harmonized Peaks and signals per CREs)
-- cre_counts : Contains a sample description "Normalisation_Parameters.txt" and the normalized read counts per CREs "Count_normalized.txt" for the H3K27ac Chipseq of the Screen presented in the manuscript
+|-- cre_counts : Contains a sample description "Normalisation_Parameters.txt" and the normalized read counts per CREs "Count_normalized.txt" for the H3K27ac Chipseq of the Screen presented in the manuscript
 - cre_counts_ifnb1_stimulation : normalized read counts per CREs "Count_normalized.txt" for the H3K27ac Chipseq following IFNb1 stimulation (GSE56121).
 - cre_dmso_impulseDE2 : ImpulseDE2 results (relative to script 01_DMSO_Impulse_and_Clustering.R)
 - KI_Annotations : Designated and Kinobeads CATDS based annotation of each of the 58 CKI used
