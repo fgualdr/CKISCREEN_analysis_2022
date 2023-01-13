@@ -9,7 +9,7 @@ library(ComplexHeatmap)
 library(RColorBrewer)
 
 githubURL <- "https://github.com/fgualdr/CKISCREEN_analysis/"
-githubURL <- "/hpcnfs/data/GN2/fgualdrini/Master_batch_scripts/KI_SCREEN/KI_EXPERIMENTS/ORGANISED_CODES/CKISCREEN_analysis/"
+
 Output_folder <- paste0(githubURL,"/Results/")
 
 cat("Import H3K27ac Chipseq normalized signal per CRE\n")
